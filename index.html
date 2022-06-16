@@ -30,6 +30,7 @@
                 <h2>Holiday Finder</h2>
                 <hr width="50px">
                 <div class="select_list">
+                    <label>
                     <select name="location" id="location-select">
                         <option value="">Location</option>
                         <option value="Maroc">Maroc</option>
@@ -39,8 +40,8 @@
                         <option value="Germany">Germany</option>
                         <option value="Japan">Japan</option>
                     </select>
-                </div>
-                <div class="select_list">
+                </label>
+                <label>
                     <select name="Activity" id="Activity-select">
                         <option value="">Activity</option>
                         <option value="Maroc">Maroc</option>
@@ -50,6 +51,7 @@
                         <option value="Germany">Germany</option>
                         <option value="Japan">Japan</option>
                     </select>
+                </label>
                 </div>
                 <div class="grade">
                     <select name="grade" id="grade-select">
@@ -61,11 +63,8 @@
                         <option value="Germany">Germany</option>
                         <option value="Japan">Japan</option>
                     </select>
+                    <input type="date" id="start" name="trip-start">
                 </div>
-                <!--end select grade -->
-                <!--start select date -->
-                <input type="date" id="start" name="trip-start">
-                <!--end select date-->
                 
             <!--end main landing -->
         </div>
